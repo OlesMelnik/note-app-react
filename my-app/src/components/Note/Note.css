@@ -1,0 +1,75 @@
+.note {
+    width: 200px;
+    height: auto;
+    padding: 0;
+    float: left;
+    background-color: yellow;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 2px;
+    margin-bottom: 10px;
+    -webkit-transition: box-shadow .3s;
+    transition: box-shadow .3s;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-word;
+}
+
+.note-text{
+    display: block;
+    padding: 10px;
+}
+
+.note:hover {
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20), 0 6px 6px rgba(0, 0, 0, 0.23);
+}
+
+.note-restore{
+    cursor: pointer;
+}
+
+.color-btn{
+    width: 25px;
+    height: 25px;
+    border-radius: 50px;
+    margin: 0 2px;
+    border: 1px solid gray;
+}
+
+.color-list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    left: 0px;
+}
+
+.note-color{
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.note-restore{
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+
+.delete-note {
+    position: absolute;
+    top:5px;
+    right:5px;
+    display: none;
+    color: rgba(0,0,0,0.6);
+    cursor: pointer;
+}
+
+.note:hover .delete-note {
+    display: block;
+}
+
+.note-image{
+    width: 200px;
+    object-fit: cover;
+}

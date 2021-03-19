@@ -1,0 +1,104 @@
+.note-editor {
+    width: 100%;
+    max-width: 600px;
+    padding: 16px;
+    margin: 16px auto;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 2px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+
+.tags {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+    padding: 16px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    border-radius: 2px;
+    display: flex;
+    border: none;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.tags:focus {
+    outline: 0;
+}
+
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.textarea {
+    width: 100%;
+    resize: none;
+    margin: 5px;
+    font-size: 14px;
+    border: none;
+    font-weight: 300;
+}
+
+input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload{
+    margin-right: 250px;
+    text-align: left;
+    color: gray;
+    display: inline-block;
+    cursor: pointer;
+}
+.textarea:focus {
+    font-family: 'Comic Sans MS', cursive;
+    outline: 0;
+}
+
+.textarea::-webkit-input-placeholder {
+    font-family: 'Comic Sans MS', cursive;
+  }
+  
+.textarea:-ms-input-placeholder {
+    font-family: 'Comic Sans MS', cursive;
+}
+  
+.textarea:-moz-placeholder {
+    font-family: 'Comic Sans MS', cursive;
+}
+  
+.textarea:-moz-placeholder {
+    font-family: 'Comic Sans MS', cursive;;
+}
+
+.tags{
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.tags::-webkit-input-placeholder {
+    font-family: 'Comic Sans MS', cursive;
+  }
+  
+.tags:-ms-input-placeholder {
+    font-family: 'Comic Sans MS', cursive;
+}
+  
+.tags:-moz-placeholder {
+    font-family: 'Comic Sans MS', cursive;
+}
+  
+.tags:-moz-placeholder {
+    font-family: 'Comic Sans MS', cursive;;
+}

@@ -1,0 +1,54 @@
+.menu-bar {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 10px;
+    width: 150px;
+    background: rgb(20, 222, 248);
+    box-sizing: border-box;
+    transition: .5s ease-in-out;
+}
+
+.menu{
+    display: flex;
+}
+
+.menu-item {
+    padding: 15px 15px;
+}
+
+.menu-item-link {
+    color: #ffffff;
+    font-family: 'Comic Sans MS', cursive;
+   text-decoration: none;
+}
+
+.hide{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 10px;
+    width: 150px;
+    background: rgb(55 248 211);
+    box-sizing: border-box;
+    transition: .5s ease-in-out;
+    margin-left: -150px;
+}
+
+.active{
+    color: #8f8f8f;
+}
+
+.active i{
+    color: #fff;
+}
+
+.menu-btn{
+    width: 50px;
+    margin-top: 20px;
+    margin-left: 12px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+

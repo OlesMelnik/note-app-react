@@ -1,0 +1,15 @@
+.done{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.todo{
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.delete-todo{
+    color: gray;
+}

@@ -1,0 +1,46 @@
+.todo-grid{
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.search{
+    padding: 5px;
+    padding-left: 10px;
+    width: 100%;
+    height: 50px;
+    border: none;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.search:focus{
+    font-family: 'Comic Sans MS', cursive;
+    outline: none;
+}
+
+.search::-webkit-input-placeholder {
+    font-family: 'Comic Sans MS', cursive;
+  }
+  
+  .search:-ms-input-placeholder {
+    font-family: 'Comic Sans MS', cursive;
+  }
+  
+  .search:-moz-placeholder {
+    font-family: 'Comic Sans MS', cursive;
+  }
+  
+  .search::-moz-placeholder {
+    font-family: 'Comic Sans MS', cursive;
+  }
+
+.todo{
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border: 1px solid rgb(25, 138, 231);
+    width: 100%;
+    background-color: #ffffff;
+}
